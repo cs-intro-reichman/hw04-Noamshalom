@@ -161,11 +161,7 @@ public class ArrCharOps {
      *         lexicographically greater than str2.
      *         return -2 if there is an error with the input.
      */
-    public static int compareTo(String str1, String str2) {
-        
-    if (str1 == null || str2 == null) {
-        return -2;
-    }
+   public static int compareTo(String str1, String str2) {
 
     int n1 = str1.length();
     int n2 = str2.length();
@@ -184,5 +180,6 @@ public class ArrCharOps {
 
     return 0;
     }
+
 
 }
